@@ -1,19 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
   <head>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
   <body>
-    <div>
+    <div class = "container d-flex flex-column align-items-center">
       <h1>Deck</h1>
-      <img src = "https://s-media-cache-ak0.pinimg.com/736x/e3/c0/30/e3c0303bd55533912981137b2eb9a157.jpg" alt = "deck of cards" width = "350" height = "600">
-      <div>
-        <button type = "button" id = "draw">Draw Card</button>
-      <button type = "button" id = "shuffle">Shuffle Deck</button>
+      <img src = "./cards/Card-Back.png" alt = "deck of cards" width = "355" height = "475">
+      <div id = "button-div">
+        <button type = "button" id = "draw" class = "btn btn-primary" data-bs-toggle = "modal" data-bs-target = "#cardModal">Draw Card</button>
+        <button type = "button" id = "shuffle" class = "btn btn-primary">Shuffle Deck</button>
       </div>
       <p id = "text">Text</p>
       <p id = "text2">Text</p>
     </div>
+
+    <div class = "modal fade" id = "cardModal" tabindex = "-1"  aria-labelledby="cardModalLabel" aria-hidden="true"">
+      <div class = "modal-dialog modal-lg>
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="cardModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body d-flex justify-content-center">
+            <img class = "me-2" src = "./cards/Card-Back.png" alt = "deck of cards" width = "355" height = "475">
+            <img src = "./cards/Card-Back.png" alt = "deck of cards" width = "355" height = "475">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <script src = "DecksOfJokers.js"></script>
   </body>
 </html>

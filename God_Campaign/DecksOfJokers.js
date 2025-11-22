@@ -21,6 +21,10 @@ drawButton.addEventListener('click', () => {
   textTwo.innerHTML = drawnCardTwo + " (Cards remaining " + deck.length + ")";
 });
 
+function SelectDrawnCard(){
+
+}
+
 shuffleButton.addEventListener('click', () => {
   // Clear the deck first
   deck = [];
