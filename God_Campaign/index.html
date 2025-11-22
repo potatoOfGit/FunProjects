@@ -4,11 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <style>
-      img{
-        image-rendering: pixelated;
-      }
-    </style>
+    <link rel = "stylesheet" href = "stylesheet.css">
   </head>
   <body>
     <div class = "container d-flex flex-column align-items-center">
@@ -22,11 +18,55 @@
       <p id = "text2">Text</p>
     </div>
 
+    <div class = "container d-flex justify-content-center">
+      <div id = "hand-slot-one" class = "m-1">
+        <button type = "button" class = "btn">
+          <img src = "./cards/Card-Back.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+
+      <div id = "hand-slot-two" class = "m-1">
+        <button type = "button" class = "btn">
+          <img src = "./cards/Card-Back.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+
+      <div id = "hand-slot-three" class = "m-1">
+        <button type = "button" class = "btn">
+          <img src = "./cards/Card-Back.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+
+      <div id = "hand-slot-four" class = "m-1">
+        <button type = "button" class = "btn">
+          <img src = "./cards/Card-Back.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+
+      <div id = "hand-slot-five" class = "m-1">
+        <button type = "button" class = "btn">
+          <img src = "./cards/Card-Back.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+
+      <div id = "hand-slot-six" class = "m-1">
+        <button type = "button" class = "btn">
+          <img src = "./cards/Card-Back.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+
+      <div id = "hand-slot-seven" class = "m-1">
+        <button type = "button" class = "btn">
+          <img src = "./cards/Card-Back.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+    </div>
+
     <div class = "modal fade" id = "cardModal" tabindex = "-1"  aria-labelledby="cardModalLabel" aria-hidden="true"">
       <div class = "modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="cardModalLabel">Modal title</h1>
+            <h1 class="modal-title fs-5" id="cardModalLabel">Card Selection</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body d-flex justify-content-center">
