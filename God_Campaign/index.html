@@ -20,44 +20,44 @@
 
     <div class = "container d-flex justify-content-center">
       <div id = "hand-slot-one" class = "m-1">
-        <button type = "button" class = "btn">
-          <img src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        <button type = "button" class = "btn" onclick="changeHandImg('handImgOne')">
+          <img id = "handImgOne" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
         </button>
       </div>
 
       <div id = "hand-slot-two" class = "m-1">
-        <button type = "button" class = "btn">
-          <img src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        <button type = "button" class = "btn" onclick="changeHandImg('handImgTwo')">
+          <img id = "handImgTwo" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
         </button>
       </div>
 
       <div id = "hand-slot-three" class = "m-1">
-        <button type = "button" class = "btn">
-          <img src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        <button type = "button" class = "btn" onclick="changeHandImg('handImgThree')">
+          <img id = "handImgThree" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
         </button>
       </div>
 
-      <div id = "hand-slot-four" class = "m-1">
+      <div id = "hand-slot-four" class = "m-1" onclick="changeHandImg('handImgFour')">
         <button type = "button" class = "btn">
-          <img src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+          <img id = "handImgFour" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
         </button>
       </div>
 
       <div id = "hand-slot-five" class = "m-1">
-        <button type = "button" class = "btn">
-          <img src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        <button type = "button" class = "btn" onclick="changeHandImg('handImgFive')">
+          <img id = "handImgFive" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
         </button>
       </div>
 
       <div id = "hand-slot-six" class = "m-1">
-        <button type = "button" class = "btn">
-          <img src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        <button type = "button" class = "btn" onclick="changeHandImg('handImgSix')">
+          <img id = "handImgSix" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
         </button>
       </div>
 
       <div id = "hand-slot-seven" class = "m-1">
-        <button type = "button" class = "btn">
-          <img src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        <button type = "button" class = "btn" onclick="changeHandImg('handImgSeven')">
+          <img id = "handImgSeven" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
         </button>
       </div>
     </div>
@@ -72,9 +72,11 @@
           <div class="modal-body d-flex justify-content-center">
             <button type = "button" class = "btn" id = "card-button-one">
               <img id = "chosen-card-one" src = "" alt = "deck of cards" width = "355" height = "475">
+              <p id = "textThree">Filler Text</p>
             </button>
             <button type = "button" class = "btn" id = "card-button-two">
               <img id = "chosen-card-two" src = "" alt = "deck of cards" width = "355" height = "475">
+              <p id = "textFour">Filler Text</p>
             </button>
           </div>
         </div>
