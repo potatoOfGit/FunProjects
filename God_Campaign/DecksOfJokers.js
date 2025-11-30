@@ -26,7 +26,7 @@ const imgElementTwo = document.getElementById("chosen-card-two");
 
 const suites = ["Hearts", "Clubs", "Diamonds", "Spades"];
 const values = ["Joker", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"];
-const imgLinks = ["./cards/Card-Back.png",//Hearts
+const imgLinks = ["./cards/Joker_Of_Hearts.png",//Hearts
                   "./cards/Two_Of_Hearts.png",
                   "./cards/Three_Of_Hearts.png",
                   "./cards/Four_Of_Hearts.png",
@@ -39,7 +39,8 @@ const imgLinks = ["./cards/Card-Back.png",//Hearts
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
-                  "./cards/Card-Back.png", //Clubs Begin
+                  "./cards/Clubs/Joker_Of_Clubs.png", 
+                  "./cards/Clubs/Joker_Of_Clubs.png", //Clubs Begin
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
@@ -53,9 +54,7 @@ const imgLinks = ["./cards/Card-Back.png",//Hearts
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
-                  "./cards/Card-Back.png",
-                  "./cards/Card-Back.png",//Diamons Begin
-                  "./cards/Card-Back.png",
+                  "./cards/Diamonds/Joker_Of_Diamonds.png",//Diamons Begin
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
@@ -68,12 +67,13 @@ const imgLinks = ["./cards/Card-Back.png",//Hearts
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
-                  "./cards/Card-Back.png",//Spades
+                  "./cards/Card-Back.png",
+                  "./cards/Spades/Joker_Of_Spades.png",//Spades
                   "./cards/Spades/Two_Of_Spades.png",
                   "./cards/Spades/Three_Of_Spades.png",
                   "./cards/Spades/Four_Of_Spades.png",
-                  "./cards/Card-Back.png",
-                  "./cards/Card-Back.png",
+                  "./cards/Spades/Five_Of_Spades.png",
+                  "./cards/Spades/Six_Of_Spades.png",
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
