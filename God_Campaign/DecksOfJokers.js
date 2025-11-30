@@ -69,9 +69,9 @@ const imgLinks = ["./cards/Card-Back.png",//Hearts
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",//Spades
-                  "./cards/Card-Back.png",
-                  "./cards/Card-Back.png",
-                  "./cards/Card-Back.png",
+                  "./cards/Spades/Two_Of_Spades.png",
+                  "./cards/Spades/Three_Of_Spades.png",
+                  "./cards/Spades/Four_Of_Spades.png",
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
                   "./cards/Card-Back.png",
