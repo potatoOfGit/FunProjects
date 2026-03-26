@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "stylesheet.css">
+  </head>
+  <body>
+    <div class = "container d-flex flex-column align-items-center">
+      <h1>Deck</h1>
+      <img src = "./cards/Card-Back.png" alt = "deck of cards" width = "355" height = "475">
+      <div id = "button-div">
+        <button type = "button" id = "draw" class = "btn btn-primary" data-bs-toggle = "modal" data-bs-target = "#cardModal">Draw Card</button>
+        <button type = "button" id = "shuffle" class = "btn btn-primary">Shuffle Deck</button>
+      </div>
+      <p id = "text">Text</p>
+      <p id = "text2">Text</p>
+    </div>
+
+    <div class = "container d-flex justify-content-center">
+      <div id = "hand-slot-one" class = "m-1">
+        <button type = "button" class = "btn" onclick="changeHandImg('handImgOne')">
+          <img id = "handImgOne" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+
+      <div id = "hand-slot-two" class = "m-1">
+        <button type = "button" class = "btn" onclick="changeHandImg('handImgTwo')">
+          <img id = "handImgTwo" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+
+      <div id = "hand-slot-three" class = "m-1">
+        <button type = "button" class = "btn" onclick="changeHandImg('handImgThree')">
+          <img id = "handImgThree" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+
+      <div id = "hand-slot-four" class = "m-1" onclick="changeHandImg('handImgFour')">
+        <button type = "button" class = "btn">
+          <img id = "handImgFour" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+
+      <div id = "hand-slot-five" class = "m-1">
+        <button type = "button" class = "btn" onclick="changeHandImg('handImgFive')">
+          <img id = "handImgFive" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+
+      <div id = "hand-slot-six" class = "m-1">
+        <button type = "button" class = "btn" onclick="changeHandImg('handImgSix')">
+          <img id = "handImgSix" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+
+      <div id = "hand-slot-seven" class = "m-1">
+        <button type = "button" class = "btn" onclick="changeHandImg('handImgSeven')">
+          <img id = "handImgSeven" src = "./cards/Hand_Slot.png" alt = "deck of cards" width = "177.5" height = "227.5">
+        </button>
+      </div>
+    </div>
+
+    <div class = "modal fade" id = "cardModal" tabindex = "-1"  aria-labelledby="cardModalLabel" aria-hidden="true"">
+      <div class = "modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="cardModalLabel">Card Selection</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body d-flex justify-content-center">
+            <button type = "button" class = "btn" id = "card-button-one" data-bs-dismiss="modal">
+              <img id = "chosen-card-one" src = "" alt = "deck of cards" width = "355" height = "475">
+              <p id = "textThree">Filler Text</p>
+            </button>
+            <button type = "button" class = "btn" id = "card-button-two" data-bs-dismiss="modal">
+              <img id = "chosen-card-two" src = "" alt = "deck of cards" width = "355" height = "475">
+              <p id = "textFour">Filler Text</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src = "DecksOfJokers.js"></script>
+  </body>
+</html>

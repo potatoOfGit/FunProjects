@@ -1,0 +1,20 @@
+img{
+  image-rendering: pixelated;
+}
+
+body{
+  background-color: rgb(1, 51, 1);
+
+}
+
+h1{
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+.modal-content{
+  background-color: black;
+}
